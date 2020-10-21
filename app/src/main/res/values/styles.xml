@@ -1,0 +1,81 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="TypeChip">@style/TypeChip</item>
+        <item name="FlavorChip">@style/FlavorChip</item>
+    </style>
+
+    <style name="ImageRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bar_layer</item>
+        <item name="android:indeterminateDrawable">@drawable/rating_bar_layer</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:maxHeight">50dp</item>
+    </style>
+
+    <attr name="TypeChip" format="integer|reference" />
+    <attr name="FlavorChip" format="integer|reference" />
+
+    <style name="AppTheme.ChipText"
+        parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="WhiteChip.Choice" parent="Base.Widget.MaterialComponents.Chip">
+        <item name="android:checkable">true</item>
+
+        <item name="chipIconVisible">false</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="closeIconVisible">false</item>
+
+        <item name="checkedIcon">@null</item>
+
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+
+        <item name="chipBackgroundColor">#FFFFFF</item>
+        <item name="rippleColor">@color/mtrl_choice_chip_ripple_color</item>
+
+    </style>
+
+    <style name="WhiteChip.Filter" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">#FFFFFF</item>
+    </style>
+
+    <style name="TypeChip" parent="Base.Widget.MaterialComponents.Chip">
+        <item name="android:checkable">false</item>
+
+        <item name="chipIconVisible">false</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="closeIconVisible">false</item>
+
+        <item name="checkedIcon">@null</item>
+
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="chipBackgroundColor">#B0C4DE</item>
+        <item name="rippleColor">#B0C4DE</item>
+        <item name="android:clickable">false</item>
+
+    </style>
+
+    <style name="FlavorChip" parent="Base.Widget.MaterialComponents.Chip">
+        <item name="android:checkable">false</item>
+
+        <item name="chipIconVisible">false</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="closeIconVisible">false</item>
+
+        <item name="checkedIcon">@null</item>
+
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+
+        <item name="chipBackgroundColor">#FFD700</item>
+        <item name="rippleColor">#FFD700</item>
+        <item name="android:clickable">false</item>
+
+    </style>
+
+
+</resources>

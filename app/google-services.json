@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "827090760583",
+    "firebase_url": "https://saketabi-7d346.firebaseio.com",
+    "project_id": "saketabi-7d346",
+    "storage_bucket": "saketabi-7d346.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827090760583:android:e09cd9a952e4afffb19922",
+        "android_client_info": {
+          "package_name": "com.example.saketabi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827090760583-oorbkesggr5cjb0o93mk8qd9bkb0eo30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyP02d_Greh6Sr_iCQHQzYfUgHtHj6U9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827090760583-oorbkesggr5cjb0o93mk8qd9bkb0eo30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

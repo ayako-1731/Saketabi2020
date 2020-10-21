@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Saketabi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="twitter_consumer_key" translatable="false">t9Xp8JCrqJQ0ykOGiRYZtrPXk</string>
+    <string name="twitter_consumer_secret" translatable="false">CW6nkcur2lFUiv2LuqCVa8RbjNDrBuaxcB8uu9x5OGIxP51RwQ</string>
+    <string name="web_client_id" translatable="false">827090760583-oorbkesggr5cjb0o93mk8qd9bkb0eo30.apps.googleusercontent.com</string>
+</resources>
